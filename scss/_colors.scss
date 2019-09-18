@@ -1,0 +1,40 @@
+:root {
+    --first-color: #fd53c0; 
+    --second-color: #f6fbff;
+    --third-color: #01262f;
+    --body-bg: #FAFDFF;
+    --section-bg: #f6fbff;
+    --border-color: #DFE0E0;
+    --dark-color: #292F36;
+}
+
+
+.color {
+    color: var(--color);
+}
+
+.background {
+    background-color: var(--background); 
+}
+
+.first-color {
+    color: var(--first-color);
+}
+
+.second-color {
+    color: var(--second-color);
+}
+
+.third-color {
+    color: var(--third-color);
+}
+
+.border-color {
+    color: var(--border-color);
+}
+
+.bg-body {
+    color: var(--body-bg)
+}
+
+

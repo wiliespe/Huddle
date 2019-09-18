@@ -1,0 +1,40 @@
+
+.counter__item img {
+        width: 2em;
+}
+.counter__item h2 {
+    font-size: 6rem;
+}
+
+.main-content__item {
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    order: 2;
+}
+
+.main-content__item img {
+    width: 25rem;
+}
+
+.counter-icon {
+    width: 50%;
+}
+
+.main-content__community {
+    text-align: center;
+    height: 15rem;
+}
+
+.section-bg {
+    background-color: var(--section-bg);
+   
+}
+
+
+

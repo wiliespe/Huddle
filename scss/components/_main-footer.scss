@@ -1,0 +1,57 @@
+.footer {
+    background-color: var(--third-color);
+    color: #ffffff;
+}
+
+.footer-content {
+    padding: 2rem;
+}
+
+.footer-icon span  {
+    font-size: 2rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.footer-content__item span {
+    margin-left: 1rem;
+}
+
+.item-redes__sociales {
+    margin-top: 2rem;
+
+}
+
+.footer-content__item h3 {
+    text-transform: uppercase;
+}
+
+.item-redes__sociales .fa {
+    color: #ffffff;
+    font-size: 2em;
+    margin-right: 1rem;
+}
+
+.btn-subscribe {
+    background-color: var(--first-color);
+    color: #ffffff;
+    border-radius: 0.4em;
+    font-weight: 600;
+}
+
+.item__newsletter input {
+    border: 1px solid var(--border-color);
+    padding: 1em;
+    border-radius: 0.4em;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.copy-right {
+    text-align: center;
+    width: 100%;
+    font-size: var(--small-font-size);
+    color: #B5B5B6;
+    font-family: 'poppins';
+}

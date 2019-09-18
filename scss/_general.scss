@@ -1,0 +1,97 @@
+:root {
+    --h1-font-size: 2.2rem;
+    --h2-font-size: 2.1rem;
+    --h3-font-size: 1.5rem;
+    --body-font-size: 1rem;
+    --small-font-size: .85rem;
+    --xs-font-size: .75rem;
+  }
+
+  :root {
+    --line-height: 1.2em;
+  }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-bg);
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--body-font-size);
+    position: relative;
+    top: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  img {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+  
+  ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  input, button {
+    padding: 0;
+    margin: 0;
+  }
+
+  input:focus, button:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  button {
+    font-family: 'Open Sans', sans-serif; 
+    text-transform: capitalize;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    border-radius: 2em;
+    margin: 0;
+  }
+
+  .btn {
+    font-size: var(--small-font-size);
+    padding: 1em 3em;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    line-height: var(--line-height);
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+  }
+  
+  h1 {
+    font-size: var(--h1-font-size);
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: var(--h2-font-size);
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: var(--h3-font-size);
+    font-weight: 700;
+  }
+  
+  p {
+    font-weight: 400;
+  }
+  
