@@ -1,9 +1,56 @@
-@media screen and (min-width: 960px) {
+@media screen and (max-width: 768px) {
     .main-menu {
-        display: none;
+        background: linear-gradient(to right, #fd53c0, #bc4e9c);
+        right: 0;
+        left: -180vw;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        transition: all 1s ease;
+        z-index: 1000;
+       
     }
 
-    .hamburger-icon {
-        display: block;
+    .active {
+        left: 0;
     }
+
+    .circle {
+        -webkit-clip-path: circle(150% at 100% 0);
+    clip-path: circle(150% at 100% 0);
+    }
+
+    
+    
+
+    .main-menu ul {
+        display: block;
+        text-align: center;
+    }
+
+    .main-menu li a {
+        color: white;
+        font-size: 2rem;
+        transition: all 0.3s ease;
+
+    }
+
+    .main-header__mobile {
+        z-index: 2000;
+
+    }
+
+.main-header__mobile {
+    display: block;
+
+}
+
+.main-menu li a:hover {
+    letter-spacing: 4px;
+}
+
 }
