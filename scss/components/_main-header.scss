@@ -10,8 +10,8 @@
 
 .main-menu>ul>li:hover {
     background-color: var(--first-color);
-    border-radius: 0px;
-    transition: 0.2s;
+    border-radius: 6px;
+    transition: all 0.6s ease;
 }
 
 .main-header__mobile {
